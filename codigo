@@ -46,13 +46,13 @@ void setup() {
 
 void loop() { 
   
-    mqttClient.connect("DiegoVicente");
+    mqttClient.connect("DiegoVicente-t");
 
     estado_sensor = digitalRead(pino2);
     
   if(estado_sensor ){
 
-    mensagem = mqttClient.publish("DiegoVicente","RACK FECHADO");
+    mensagem = mqttClient.publish("diegovicente","RACK FECHADO");
 
     mqttClient.loop();
     Serial.println ("RACK FECHADO");
@@ -61,7 +61,7 @@ void loop() {
    }
  else{
 
-  mensagem = mqttClient.publish("DiegoVicente","RACK ABERTO!");
+  mensagem = mqttClient.publish("diegovicente","RACK ABERTO!");
   
     Serial.println("RACK ABERTO");
 }
