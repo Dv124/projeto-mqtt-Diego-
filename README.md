@@ -18,3 +18,5 @@ Sensor Magnetico (MC-38)
 Jumpers
 
 ## Circuito
+![68747470733a2f2f692e696d6775722e636f6d2f594947477453472e706e67](https://user-images.githubusercontent.com/78150767/107226375-cd2cc000-69f8-11eb-824a-1abf683f88ea.png)
+Autor: Diego Vicente
